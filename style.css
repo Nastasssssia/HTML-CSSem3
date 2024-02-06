@@ -1,41 +1,94 @@
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 
 body{
     background: rgb(255, 255, 255);
-    font-family: Gilroy-Bold;;   
+    font-family: Gilroy-Bold;    
 }
 
-.menu_header{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1px;
-    letter-spacing: 0%;
-    text-align: left;
+.top__menu{
+    /* Meun bar */
+    display: flex;
+    width: 1170px;
+    height: 40px;
     margin-top: 40px;
+    margin-left: 365px;
+   
+}
+
+.logo{
+    /* Logo */
+    justify-content: start;
+    width: 137px;
+    height: 40px;
+    gap:14px;
+    margin: 0 14px; 
+    display: flex;    
+}
+
+.header__img{
+    /* logo */
+
+    width: 35px;
+    height: 40px; 
+}
+
+.text__img{
+    width: 88px;
+    height: 30px;
+    margin-top: 8px; 
+}
+
+
+.right__menu{
+    /* Meun bar */
+    display: flex;
+    width: 533px;
+    height: 17px;
+    margin-top: 20px; 
+    margin-left: 440px;
+    font-size: 14px;
 }
 
 a{
-    color:black;
-    padding-right: 15px;
+    /* Home About Us Services Features Team Blog Contact */
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Home About Us Services Features Team Blog Contact */
+    width: 533px;
+    height: 17px;
+    left: 52px;
+    right: -52px;
+    top: -421px;
+    bottom: 421px;
     text-decoration: none;
+    color: black;
+    margin-right: 48px;
+    white-space: nowrap;
 }
 
-.home{
+.orange{
     color:rgb(242, 88, 34);
 }
 
-.home__meta{
-    max-width: 522px;
-    text-align: left;
-    margin-top: 223px;
-    margin-bottom: 255px;
-    margin-left: 1025;
-    margin-right: 373;
+.home{
+    display: flex;    
+}
+
+.home__meta{ 
+    display: flex;
+    flex-direction: column;
+    width: 522px;
+    height: 374px;
+    border-radius: 50px;
+    margin-left: 373px;
+    margin-top: 84px;     
 }
 
 .p1{
@@ -60,6 +113,9 @@ a{
 .img_meta{
     width: 544.81px;
     height: 374.84px;
+    margin-left: auto;
+    flex: 1;
+    margin-top: 95px;  
 }
 
 .button_left{
@@ -80,18 +136,19 @@ a{
     border: none;
 }
 
-.top__logo {
+.brand__logo {
     display: flex;
     margin-top: 200px;
     background: rgb(255, 255, 255);
-   
-  }
-
-  .logo {
-    width: 50px; 
-    height: 50px;
-    margin: 0 50px; 
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
     gap: 50px;
+    margin-left: 260px;
+    margin-right: 240px;
   
 }
+
+ 
+
